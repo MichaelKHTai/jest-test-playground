@@ -1,0 +1,26 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "MichaelKHTai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.0",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7",
+    "ts-jest": "^25.3.1",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
